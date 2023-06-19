@@ -1,0 +1,99 @@
+.section-link:hover{
+    text-decoration: underline;
+}
+.section-link{
+    font-size: 30px;
+    font-weight: bold;
+    color:darkgray;
+    text-decoration: none;
+    font-family: "Futura";
+}
+.site-section{
+    display:inline;
+}
+.nav-links{
+    display:flex;
+    height:70px;
+    justify-content: space-around;
+    border:1px solid black;
+    margin:0;
+    align-items: center;
+}
+
+.brand-header{
+    font-family: "Sofia", sans-serif;;
+    text-align: center;
+}
+
+.page{
+    border:1px solid black;
+    display:grid;
+    grid-template-columns: 1fr 550px 1fr;
+grid-template-rows: 1fr 1fr;
+    
+}
+.story-1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    padding:5%;
+}
+.story-2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:5%;
+}
+.story-3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:5%;
+}
+.story-4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:5%;
+}
+.story-5{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:5%;
+    grid-column:2/span 2;
+}
+
+/*p{
+    margin-bottom: 1px;
+    margin-top: 1px;
+    max-height: 100px;
+}
+I had to use this to reduce the spaces between paragraphs but it desroyed 
+responsive property of my page
+*/
+
+.article-img{
+    display: block;
+  margin: 0 auto;
+  max-height: 250px;
+  
+}
+
+.story{
+    border:1px solid black;
+    
+}
+.article-title{
+    
+    font-family:cursive;
+}
+
+
+
+
